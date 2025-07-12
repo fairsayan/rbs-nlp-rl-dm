@@ -1,0 +1,15 @@
+# Essential packages for Amazon Reviews NLP Laboratory
+pandas>=2.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+wordcloud>=1.9.0
+nltk>=3.8.0
+scikit-learn>=1.2.0
+plotly>=5.14.0
+
+# Jupyter environment (optional - install separately if needed)
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0
+
+# Optional visualization enhancement
+# seaborn>=0.11.0

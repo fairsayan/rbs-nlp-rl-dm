@@ -1,0 +1,17 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "num_labels": 4,
+  "train_size": 36,
+  "val_size": 12,
+  "test_size": 12,
+  "test_accuracy": 0.3333333333333333,
+  "test_f1": 0.23214285714285712,
+  "categories": [
+    "Technical Issue",
+    "Billing",
+    "Account Management",
+    "General Inquiry"
+  ],
+  "training_epochs": 3,
+  "batch_size": 16
+}

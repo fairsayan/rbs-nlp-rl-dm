@@ -1,0 +1,5 @@
+.DS_Store
+**/venv/
+amazon-reviews/data
+text-classification/fine_tuned_model
+text-classification/results
