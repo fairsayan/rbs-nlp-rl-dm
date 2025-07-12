@@ -4,24 +4,38 @@ This lab explores word embeddings using pretrained Word2Vec models.
 
 ## Setup Instructions
 
-### 1. Create Virtual Environment
+### Unified Environment Setup (Recommended)
+This lab is part of a unified course environment. From the repository root:
 ```bash
-# Create virtual environment
-python -m venv nlp_embeddings_env
+# One-time setup for all laboratories
+./setup.sh
 
-# Activate virtual environment
-# On macOS/Linux:
-source nlp_embeddings_env/bin/activate
-# On Windows:
-nlp_embeddings_env\Scripts\activate
+# Activate the shared environment  
+source .venv/bin/activate
+
+# Navigate to this lab and start
+cd explore-embeddings/
+jupyter notebook explore_embeddings_lab.ipynb
 ```
 
-### 2. Install Dependencies
+### Alternative: Local Setup (if needed)
+If you prefer to set up only this lab:
+
+#### 1. Create Virtual Environment
+```bash
+# Create virtual environment
+python3 -m venv .venv
+
+# Activate virtual environment
+source .venv/bin/activate
+```
+
+#### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Launch Jupyter Notebook
+#### 3. Launch Jupyter Notebook
 ```bash
 jupyter notebook explore_embeddings_lab.ipynb
 ```
